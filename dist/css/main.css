@@ -116,7 +116,7 @@ input[class^='btn-']:hover {
 
 .items {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -280,7 +280,7 @@ img {
 }
 
 #header-home {
-    background: url("../img/showcase.jpg") no-repeat center right/cover;
+    background: url("../img/photo-bg.png") no-repeat center right/cover;
     height: 100vh;
     color: #fff;
 }
@@ -291,13 +291,14 @@ img {
 }
 
 #header-home .header-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2;
+    margin-top: 10rem;
 }
 
 #header-inner {
-    background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
-    height: 5.5rem;
+    background: #333;
+    height: 4.5rem;
     border-bottom: 3px solid #ffbc00;
 }
 
@@ -396,13 +397,10 @@ img {
     grid-gap: 1.2rem;
 }
 
-#about-a .bio-image {
-    grid-area: bioimage;
-}
-
 #about-a .bio {
     grid-area: bio;
     border-left: 3px solid #ffbc00;
+    border-right: 3px solid #ffbc00;
     padding: 0.8rem;
 }
 
@@ -442,7 +440,7 @@ img {
 
 #about-c .about-logos {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 2rem;
 }
 
@@ -527,6 +525,7 @@ img {
     background: #333;
     color: #fff;
     height: 5rem;
+    border-top: 3px solid #ffbc00;
 }
 
 #main-footer .footer-content {
